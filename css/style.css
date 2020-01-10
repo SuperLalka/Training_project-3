@@ -1,104 +1,109 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Inria+Serif&display=swap');
 html {
-background: #FFFBFB;
-cursor: default;
+  background: #FFFBFB;
+  cursor: default;
 }
 .main {
-margin: auto;
-margin-top: 50px;
-width: 1200px;
-height: 600px;
+  margin: auto;
+  margin-top: 5vh;
+  max-width: 1200px;
+}
+header {
+  height: 80px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 110px;
 }
 .leftblock {
-background: url(images/bg-pattern-desktop.svg);
-background-size: 100% 100%;
-background-repeat: no-repeat; 
-border-radius: 20px 0px 0px 20px;
-width: 60%;
-height: 600px;
-float: left;
+  background: url(images/bg-pattern-desktop.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  border-radius: 20px 0px 0px 20px;
+  width: 60%;
+  height: 500px;
+  float: left;
 }
 .column {
-margin: auto;
-margin-top: 40px;
-width: 60%;
+  margin: auto;
+  margin-top: 40px;
+  width: 60%;
 }
 main {
-margin-top: 80px;
+  margin-top: 80px;
 }
 .h1a {
-font-family: "Inria Serif", sans-serif;
-color: #C59799;
-margin-bottom: 0px;
+  font-family: "Inria Serif", sans-serif;
+  color: #C59799;
+  margin-bottom: 0px;
 }
 .h1b {
-font-family: "Inria Serif", sans-serif;
-margin-top: 0px;
+  font-family: "Inria Serif", sans-serif;
+  margin-top: 0px;
 }
 .h1a, .h1b {
-transition: all 1s ease 0.3s; 
-font-size: 50px;
+  transition: all 1s ease 0.3s; 
+  font-size: 50px;
 }
 .h1a:hover, .h1b:hover {
-word-spacing: 10px;
-transition: all 1s ease 0.3s;
+  word-spacing: 10px;
+  transition: all 1s ease 0.3s;
 }
 p {
-font-family: "Inria Serif", sans-serif;
-font-size: 18px;
-color: #C59799;
+  font-family: "Inria Serif", sans-serif;
+  font-size: 18px;
+  color: #C59799;
 }
 .form {
-margin: auto;
-margin-top: 35px;
+  margin: auto;
+  margin-top: 35px;
 }
 fieldset {
-border: none;
-padding: 0;
-margin: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 .button {
-position: relative;
-left:-40px;
-background: linear-gradient(to right, #F5B8B7, #EE9392);
-border: 1px solid #E8DBDE;
-border-radius: 20px;
-color: white;
-min-width: 65px;
-line-height: 35px;
-text-align: center;
-outline: none;
-box-shadow: 0px 5px 10px 0px #F1D7D8;
+  position: relative;
+  left:-30px;
+  background: linear-gradient(to right, #F5B8B7, #EE9392);
+  border: 1px solid #E8DBDE;
+  border-radius: 20px;
+  color: white;
+  min-width: 65px;
+  line-height: 35px;
+  text-align: center;
+  outline: none;
+  box-shadow: 0px 5px 10px 0px #F1D7D8;
 }
 .button:active {
-background: linear-gradient(to right, #FADADB, #F8C8C8);
+  background: linear-gradient(to right, #FADADB, #F8C8C8);
 }
 .email_form {
-background: transparent;
-border: 1px solid #E8DBDE;
-border-radius: 20px;
-border-right: none;
-min-width: 300px;
-line-height: 35px;
-text-indent: 15px;
-outline: none;
+  background: transparent;
+  border: 1px solid #E8DBDE;
+  border-radius: 20px;
+  border-right: none;
+  min-width: 270px;
+  line-height: 35px;
+  text-indent: 15px;
+  outline: none;
 }
 .email_form:focus {
-border-color: #E16D6E;
-text-decoration: none;
+  border-color: #E16D6E;
+  text-decoration: none;
 }
 .rightblock {
-background-image: url(images/hero-desktop.jpg);
-background-size: 100% 100%;
-background-repeat: no-repeat; 
-border-radius: 0px 20px 20px 0px;
-width: 40%;
-height: 600px;
-float: left;
-transition: all 2s ease 0.5s;
+  background-image: url(images/hero-desktop.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  border-radius: 0px 20px 20px 0px;
+  width: 40%;
+  height: 600px;
+  float: right;
+  transition: all 2s ease 0.5s;
 }
 .rightblock:hover {
-background-position: center top;
-background-size:125% 125%;
-transition: all 2s ease 0.5s;
+  background-position: center top;
+  background-size: 125% 125%;
+  transition: all 2s ease 0.5s;
 }
